@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-color: #0B3948
+}
+
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction:column ;
+    margin: 20px 40px 20px 40px;
+    background-color:#f5fdff;
+    gap:30px
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 20px;
+}
+nav  ul {
+    display: flex;
+    gap:20px
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+nav ul li span{
+    font-size:12px
+}
+
+nav ul li img{
+    height: 12px;
+}
+button{
+    border: none;
+    background-color: var(--primary-color);
+    color:white;
+    padding: 6px 25px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+
+
+main {
+    display: flex;
+}
+
+main div{
+    flex:1
+}
+
+
+main div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+main div:first-child h1{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+main div:first-child p{
+    font-size: 10px;
+}
+
+main div:first-child button{
+    padding:12px 18px;
+    width: 30%;
+}
+
+main div:last-child img{
+    max-width: 100%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer div{
+    display: flex;
+    gap:10px;
+}
+
+footer div img{
+    height: 15px;
+}
